@@ -27,7 +27,14 @@ cask "missionstrike" do
     end
   end
 
-  uninstall quit: "com.vibecoded.missionstrike"
+  # The identifier changed after 2.6.1; cover both.
+  uninstall quit: [
+    "com.vibecoded.missionstrike",
+    "io.github.schoofsebert.missionstrike",
+  ]
 
-  zap trash: "~/Library/Preferences/com.vibecoded.missionstrike.plist"
+  zap trash: [
+    "~/Library/Preferences/com.vibecoded.missionstrike.plist",
+    "~/Library/Preferences/io.github.schoofsebert.missionstrike.plist",
+  ]
 end
