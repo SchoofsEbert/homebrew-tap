@@ -1,6 +1,6 @@
 cask "missionstrike" do
-  version "2.8.0"
-  sha256 "bafc0edfc74fc5b9c3eb10f7cdb6b0b821b2c8d724c7963d29c3f376dab32b06"
+  version "2.9.0"
+  sha256 "888524ab016da5018bbf209da39f326881ac8572e6975a55410259f7a8bfca8a"
 
   url "https://github.com/SchoofsEbert/MissionStrike/releases/download/v#{version}/MissionStrike.app.zip"
   name "MissionStrike"
@@ -14,6 +14,7 @@ cask "missionstrike" do
 
   auto_updates true
   depends_on macos: :sonoma
+  depends_on arch: :arm64
 
   app "MissionStrike.app"
 
