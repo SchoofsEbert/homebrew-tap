@@ -1,6 +1,6 @@
 cask "missionstrike" do
-  version "2.10.0"
-  sha256 "31013ff6d146233f121b576a1999c8f4450788969d70ba21ba35b5a54c3da6e1"
+  version "2.10.1"
+  sha256 "d8fe4200e4247283d7819c2d0af502662287d91dde3f59f2a86801faaf5c9f63"
 
   url "https://github.com/SchoofsEbert/MissionStrike/releases/download/v#{version}/MissionStrike.app.zip"
   name "MissionStrike"
