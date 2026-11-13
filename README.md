@@ -1,9 +1,9 @@
 # SchoofsEbert/homebrew-tap
 
-Homebrew casks for [MissionStrike](https://github.com/SchoofsEbert/MissionStrike).
+Homebrew casks for [Vantage](https://github.com/SchoofsEbert/vantage-mac) (formerly MissionStrike).
 
 ```sh
-brew install --cask schoofsebert/tap/missionstrike
+brew install --cask schoofsebert/tap/vantage-mac
 ```
 
-The cask is updated automatically by MissionStrike's release workflow.
+The cask is updated automatically by Vantage's release workflow.
