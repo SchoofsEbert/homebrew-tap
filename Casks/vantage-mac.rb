@@ -1,6 +1,6 @@
 cask "vantage-mac" do
-  version "3.0.0"
-  sha256 "8d847eaf762d12023972101f924bab190bf0eb242dbc7435d322ca0f54c65811"
+  version "3.1.0"
+  sha256 "73fa7e0ad5bb7bae18645be88ae6130b230f4c4a2186b2990ef9bd714850c251"
 
   url "https://github.com/SchoofsEbert/vantage-mac/releases/download/v#{version}/Vantage.app.zip"
   name "Vantage"
